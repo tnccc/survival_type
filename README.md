@@ -41,7 +41,7 @@ class LikeButton extends React.Component{
   count = 999
   render() {
     return <div className="likeButton">
-      <span>♥{ count }</span>
+      <span>♥{ this.count }</span>
     </div>
   }
 }
